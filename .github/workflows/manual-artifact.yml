@@ -28,5 +28,5 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: voxy-artifacts
-          path: .
+          path: '**/build/libs/*.jar'
           archive: true
